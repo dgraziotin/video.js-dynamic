@@ -1,0 +1,42 @@
+.video-background {
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    float:left;
+}
+
+.text-background {
+    width: 600px;
+    height: 300px;
+    margin-left:600px;
+    background-color: black;
+}
+
+/* srt container */
+.vjs-text-track-display {
+    position: absolute !important;
+    left: 600px !important;
+    top: 10px !important;
+    width: 600px;
+    display: block;
+    z-index: 10000000 !important;
+}
+
+/* srt text style */
+span.vjs-tt-cue{
+    color: white;
+    font-size:30px;
+}
+
+
+div.video-thumbnail {
+    cursor: pointer;
+    width:300px;
+    padding:10px;
+    float:left;
+}
+
+div.video-thumbnail p img {
+    width:280px;
+    height:280px;
+}

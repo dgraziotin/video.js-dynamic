@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link href="//vjs.zencdn.net/4.6/video-js.css" rel="stylesheet">
+    <script src="//vjs.zencdn.net/4.6/video.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <div id="video-player">
+        <div class="video-background">
+            
+        </div>
+        <div class="text-background"></div>
+    </div>
+
+    <div id="video-thumbnails">
+        <div class="video-thumbnail" id="video-1" data-video="1">
+            <p>
+                <img src="img/1.jpg" alt="">
+                <p>Video 1</p>
+                <p><a href="http://commons.wikimedia.org/wiki/TimedText:Mayer_and_Bettle_2_-_Creative_Commons.ogv.en.srt">Subs credits</a></p>
+            </p>
+        </div>
+        <div class="video-thumbnail" id="video-2" data-video="2">
+            <p>
+                <img src="img/2.jpg">
+                <p>Video 2</p>
+                <p><a href="http://commons.wikimedia.org/wiki/TimedText:Aus_der_Jugendzeit.ogg.en.srt">Subs credits</a></p>
+            </p>
+        </div>
+      
+    </div>
+
+    <div style="clear:both;width:100%">
+        Context of this page: <a href="http://ineed.coffee/3201/how-to-dynamically-change-video-js-videos-and-captions-with-javascript/">http://ineed.coffee/3201/how-to-dynamically-change-video-js-videos-and-captions-with-javascript/</a>, by Daniel Graziotin
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script type="text/javascript">
+    document.createElement('video');
+    document.createElement('audio');
+    document.createElement('track');
+    </script>
+
+</body>
+
+</html>
